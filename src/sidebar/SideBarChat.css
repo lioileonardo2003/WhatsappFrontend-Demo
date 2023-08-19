@@ -1,0 +1,26 @@
+.sidebarChat{
+	display: flex;
+	padding: 20px;
+	/* Fare uscire la manina quando ci passiamo sopra */
+	cursor: pointer;
+	border-bottom: 1px solid #f6f6f6;
+	
+}
+/* Vogliamo aggiungre l'effetto di hoover */
+.sidebarChat:hover{
+	
+	background-color: #cbc6c675
+	
+}
+.sidebarChat_info{
+	margin-left: 15px;
+	
+}
+.sidebarChat_info > p{
+	color: gray;
+}
+.sidebarChat_info > h2{
+	font-size: 16px;
+	margin-bottom: 8px;	
+	
+}
